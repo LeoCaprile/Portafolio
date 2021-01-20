@@ -116,11 +116,13 @@ visibility: visible;
   
   
 }
+h3{
+  font-size: 2vw;
+}
 .Orden {
-  display: inline-flex;
-  width: 95vw;
-  flex-wrap: wrap;
- 
+  display: grid;
+  grid: 15vw / 32vw 32vw 32vw;
+  margin-top: 5%;
 }
 .imgtitulo{
   width: 10%;
@@ -136,9 +138,7 @@ visibility: visible;
 
 
 .contenido-2{
-  margin:5%;
-  flex: 1 1 0px;
-  width: 0;
+  align-items: center;
   
 }
 .texto-cont2{
@@ -151,12 +151,11 @@ visibility: visible;
   margin: 0% 10% 0% 34%;
 }
 .imgcont2{
- display:block;
- margin-left: auto;
- margin-right: auto;
- width: 50%;
- margin-top: 10%;
-
+display: block;
+height: 50%;
+width: -50%;
+margin-left:auto;
+margin-right: auto;
 }
 
 
@@ -173,11 +172,11 @@ visibility: visible;
 
   margin-left: auto;
   display: grid;
-  grid: auto / auto auto auto;
+  grid: auto / 25vw 20vw 20vw;
 }
 
 .p-cont-3 {
-  margin-top: 5%;
+  margin-top: 2%;
   font-size: 2.5vw;
   text-align: center ;
   font-weight: bold;
